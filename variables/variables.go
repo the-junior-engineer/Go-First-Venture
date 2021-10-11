@@ -15,7 +15,7 @@ func main() {
 				example: var x = 42
 						 var z int = 75
 	*/
-	
+
 	x := 45 // Short hand declaration of variables
 	fmt.Println(x + 55)
 

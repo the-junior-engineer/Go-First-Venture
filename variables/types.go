@@ -14,7 +14,7 @@ func main() {
 	var z string = "Gopher it" // Variable z is of type string
 	fmt.Printf("Variable z is of type: %T and has value '%s'\n", z, z)
 
-	// NOTE: now, z = 75 Will crash because z is supposed to be a string but we are feed it an integer
+	// NOTE: now, z = 75 Will crash because z is expected to be a string but we are feed it an integer
 
 	// CREATING CUSTOM TYPES
 	type dog string // A way to alias types
